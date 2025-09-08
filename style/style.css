@@ -1,11 +1,28 @@
-/* Default Light Theme */
 body {
-  background-color: white;
-  color: black;
-}
+      font-family: Arial, sans-serif;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      background-color: white;
+      color: black;
+      text-align: center;
+      padding: 2rem;
+    }
+body.dark-mode {
+      background-color: #121212;
+      color: white;
+    }
+button {
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+      border: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+      background-color: #6200ea;
+      color: white;
+      transition: background-color 0.3s ease;
+    }
 
-/* Dark Theme */
-.dark-theme {
-  background-color: #121212;
-  color: white;
-}
+button:hover {
+      background-color: #3700b3;
+    }
+  
